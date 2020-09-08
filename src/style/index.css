@@ -48,8 +48,31 @@ ul {
 .archives{
   padding:15px;
 }
-.articalBox {
-  width: 45%;
+.articleBox {
+  width: 52%;
+}
+.boxLeft, .boxRight{
+  width:48%;
+}
+.boxLeft{
+  float: left;
+}
+.boxRight{
+  float: right;
+}
+.article{
+  border:1px solid gray;
+  box-shadow:0px 5px 2px #888888; 
+  margin-bottom: 20px;
+}
+.describe{
+  padding:15px;
+}
+img{
+  width: 100%;
+}
+.viewDetail{
+  color:#4492ff;
 }
 .signIn {
   width: 24%;
