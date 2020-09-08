@@ -18,12 +18,39 @@ ul {
   margin: 0;
   padding: 0;
 }
-.nav{
-  background:#262626;
-  padding:0 10px;
-  color: rgba(255,255,255,0.7);
+.nav {
+  background: #262626;
+  padding: 0 10px;
+  color: rgba(255, 255, 255, 0.7);
   height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.mainContent {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.left-aside {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.about {
+  background: #f8f9fa;
+  padding:15px;
+}
+.archives a {
+  color: purple;
+  text-decoration:underline ;
+}
+.archives{
+  padding:15px;
+}
+.articalBox {
+  width: 45%;
+}
+.signIn {
+  width: 24%;
 }
