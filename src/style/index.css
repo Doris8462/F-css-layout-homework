@@ -27,7 +27,7 @@ ul {
   justify-content: space-around;
   align-items: center;
 }
-.mainContent {
+.content {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
@@ -52,13 +52,13 @@ a {
 .archives {
   padding: 15px;
 }
-.articleBox {
+.article-box {
   width: 60%;
   display: flex;
   justify-content: space-between;
 }
-.boxLeft,
-.boxRight {
+.box-left,
+.box-right {
   width: 49%;
 }
 .article {
@@ -72,14 +72,14 @@ a {
 img {
   width: 100%;
 }
-.viewDetail {
+.view-detail {
   color: #4492ff;
 }
-.rightAside {
+.right-aside {
   position: relative;
   width: 18%;
 }
-.signIn {
+.sign {
   display: flex;
   position: absolute;
   width: 100%;
@@ -97,13 +97,13 @@ img {
   justify-content: center;
   margin-top: 10px;
 }
-.inputBar {
+.input-bar {
   margin-bottom: -28px;
   height: 35px;
   border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
-.signBtn {
+.sign-btn {
   height: 40px;
   border: none;
   color: white;
